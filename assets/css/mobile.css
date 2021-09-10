@@ -1,0 +1,70 @@
+@media (max-width : 1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+   .contect-form .form-control {
+       padding: 15px;
+   }
+   #footer .socal a{
+    margin: 0 8px;
+   }
+   #footer .socal-content{
+       padding: 12px 0;
+       display: inline-block;
+   }
+   #nav .subnav a{
+       padding: 5px 12px;
+   }
+}
+@media (max-width : 740px) and (max-width : 1039px){
+    .contact-content{
+
+        line-height: 2;
+    }
+}
+
+@media (max-width : 739px) {
+    .s-full-width{
+        width: 100% !important;
+    }
+
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-bottom: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .seach-btn{
+        display: none;
+    }
+    #header .menu-icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav .subnav{
+        position: inherit;
+        background-color: #333;
+        padding: 5px 41px;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    .contect-form{
+        margin-top: 32px;
+    }
+
+}
